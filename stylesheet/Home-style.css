@@ -1,0 +1,230 @@
+@font-face {
+    font-family: Myfont;
+    src: url(GreatVibes-Regular.ttf);
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    background-image: url(homebgimg.jpg);
+    background-size: cover;
+    width: -webkit-fill-available;
+    height: 770px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    height: 130px;
+    width: -webkit-fill-available;
+    border: 3px solid black;
+    left: 0;
+}
+.navbar .line1 {
+    text-align: left;
+    font-family: Myfont;
+    color: black;
+    font-size: 100px;
+    line-height: 0;
+    font-weight: 400;
+    margin-top: 60px;
+}
+.navbar ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.line {
+    float: right;
+    margin-bottom: 8px;
+}
+
+ul a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    padding: 20px 15px;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+.para1 {
+    text-align: center;
+    padding: 100px;
+    font-size: 20px;
+}
+
+.para1 button {
+    background-color: black;
+    width: 150px;
+    padding: 12px;
+    border-radius: 100px;
+}
+
+.para1 button a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width:1024px) {
+    .para1 {
+        padding: 80px;
+        font-size: 18px;
+    }
+}
+
+.box1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.box1 img {
+    width: 330px;
+    height: 330px;
+}
+
+@media (max-width: 1024px) {
+    .box1 img {
+        width: 310px;
+        height: 310px;
+    }
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+
+.menu-para {
+    border: 2px solid black;
+    width: 350px;
+    height: 700px;
+    text-align: center;
+    margin-right: 10px;
+    padding: 0 60px;
+    font-size: 20px;
+}
+
+.menu-para button {
+    background-color: black;
+    width: 150px;
+    padding: 12px;
+    border-radius: 100px;
+}
+
+.menu-para button a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-img {
+    margin-left: 10px;
+}
+
+.menu-img img {
+    width: 400px;
+    height: 700px;
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 85px;
+    margin-right: 90px;
+}
+
+.event-para {
+    border: 2px solid black;
+    width: 350px;
+    height: 700px;
+    text-align: center;
+    margin-left: 10px;
+    padding: 0 60px;
+    font-size: 20px;
+}
+
+.event-para button {
+    background-color: black;
+    width: 150px;
+    padding: 12px;
+    border-radius: 100px;
+}
+
+.event-para button a {
+    color: white;
+    text-decoration: none;
+}
+
+.event-img {
+    margin-right: 10px;
+}
+
+.event-img img {
+    width: 400px;
+    height: 700px;
+}
+
+.reservation {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.join {
+    text-align: center;
+    justify-content: center;
+}
+
+.join h1 {
+    font-family: Myfont;
+    font-weight: 100;
+    font-size: 50px;
+    margin: 10px 0 8px 0;
+}
+
+.join button {
+    background-color: black;
+    width: 150px;
+    padding: 12px;
+    border-radius: 100px;
+}
+
+.join button a {
+    color: white;
+    text-decoration: none;
+}
+footer{
+    margin: 50px 0 0 0;
+    background-color: rgb(24, 25, 26);
+    padding: 50px 0 50px 0;
+}
+footer ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 0;
+    margin: 0;
+}
+footer ul li {
+    list-style-type: none;
+    text-decoration: none;
+}
+footer li a {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
